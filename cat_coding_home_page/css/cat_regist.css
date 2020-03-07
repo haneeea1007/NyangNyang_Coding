@@ -1,0 +1,261 @@
+input {
+    width: 190px;
+    margin-left: 15px;
+    outline: none;
+    border: 1px solid white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 13px;
+}
+
+#section_info {
+    height: 850px;
+}
+
+#section_join {
+    height: 1020px;
+}
+
+#div-regist {
+    margin: 0 auto;
+    width: 700px;
+    height: 800px;
+    /* margin-bottom: 20px; */
+    padding-top: 20px;
+    text-align: center;
+    /* border: 2px solid #ffca18; */
+    /* border-radius: 20px; */
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#regist-header {
+    padding: 10px;
+    padding-left: 80px;
+    margin-bottom: 10px;
+    width: 700px;
+    /* border-bottom: 2px dotted pink; */
+    box-sizing: border-box;
+}
+
+#regist-header img {
+    position: relative;
+    right: 180px;
+}
+
+#regist-text {
+    display: inline-block;
+    font-size: 18px;
+    color: gray;
+    position: relative;
+    top: -30px;
+    left: -90px;
+    /* font-weight: bold; */
+}
+
+.div-input-content {
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 550px;
+    height: 45px;
+    padding: 5px;
+    padding-top: 12px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.span-content {
+    display: inline-block;
+    width: 90px;
+    border-right: 1px solid lightgray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#button-regist {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 555px;
+    height: 45px;
+    background-color: #ffca18;
+    border: 1px solid lightgray;
+}
+
+select {
+    border: 1px solid white;
+    text-align: right;
+}
+
+#selectBirthYear {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 70px;
+}
+
+#selectBirthMonth {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 60px;
+}
+
+#selectBirthDay {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 60px;
+}
+
+#spanCheckId, #spanCheckPassword1, #spanCheckPassword2,
+#spanCheckName, #spanCheckEmail, #spanCheckPhone,
+#spanCheckAddress, #spanCheckAddressNumber {
+    font-size: 11px;
+    margin-left: 10px;
+    color: orange;
+}
+
+#buttonAddressSearch {
+    display: block;
+    position: relative;
+    top: -24px;
+    right: -430px;
+    padding: 3px 8px;
+    padding-bottom: 4px;
+}
+
+#buttonIdCheck {
+    display: block;
+    position: relative;
+    top: -24px;
+    right: -460px;
+    padding: 3px 8px;
+    padding-bottom: 4px;
+}
+
+#registId {
+    width: 130px;
+}
+
+input[type="text"]:disabled {
+    background: white;
+  }
+
+#registAddress {
+    width: 245px;
+}
+
+
+#registAddressNumber {
+    width: 100px;
+}
+
+.radioAnimal {
+    width: 20px;
+}
+
+.radioLabel {
+    position: relative;
+    top: -3px;
+    margin-right: 20px;
+}
+
+#registPermission {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 20px;
+    position: relative;
+    top: 3px;
+}
+
+#div-recive-permission {
+    position: relative;
+    top: -4px;
+    padding-right: 75px;
+    text-align: right;
+}
+
+.recivePermission {
+    width: 20px;
+    position: relative;
+    top: 3px;
+}
+
+/* #divPermissinPopup {
+    position: absolute;
+    top: 120px;
+    left: 570px;
+    width: 400px;
+    height: 400px;
+    background-color: #ffd7d7;
+    border: 1px solid gray;
+    border-radius: 20px;
+    z-index: 1;
+} */
+
+#divPermissionPopup img {
+    margin-top: 50px;
+}
+
+#divPermissionPopup span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 140px;
+    text-align: left;
+}
+
+#divPermissionPopup input {
+    width: 30px;
+    margin-top: 10px;
+    width: fit-content;
+    margin-left: 15px;
+    outline: none;
+    border: 1px solid white;
+}
+
+#buttonPopup {
+    width: fit-content;
+    margin-left: 15px;
+    padding: 3px 8px;
+    padding-bottom: 4px;
+}
+
+#button-close {
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    top: -20px;
+    left: 470px;
+    padding: 3px 8px;
+    padding-bottom: 4px;
+}
+
+#divPermissionTable {
+    /* float: left; */
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 12px;
+    color: gray;
+    border-top: 1px solid lightgray;
+}
+
+#divPermissionTable p{
+    /* float: left; */
+    text-align: left;
+}
+
+#divPermissionTable table {
+    border-collapse: collapse;
+    width: 550px;
+    height: 50px;
+    border: 1px solid lightgray;
+}

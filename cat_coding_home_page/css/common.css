@@ -1,0 +1,195 @@
+/* 마진 패딩 초기화 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* button {
+    padding: 1px 6px;
+} */
+
+/* 페이지 기본 글꼴과 크기 설정 */
+body {
+    font-family: "나눔스퀘어_ac";
+    font-size: 13px;
+}
+
+section {
+    height: 410px;
+}
+
+img {
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* <a> 태그 기본 설정 */
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:active {
+    text-decoration: none;
+    color: #222222;
+}
+
+/* 상단 헤더 */
+#title_img {
+    position: relative;
+    top: -10px;
+    left: -30px;
+}
+
+#top {
+    position: relative;
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#top h3 {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    font-size: 16px;
+}
+
+#top #top_menu {
+    float: right;
+    margin: 30px 0 0 0;
+}
+
+#top #top_menu li {
+    display: inline;
+}
+
+#menu_bar {
+    margin: 0 auto;
+    width: 1000px;
+    height: 48px;
+    background-color: white;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid lightgray;
+    /* border-bottom: 2px solid lightgray; */
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#menu_bar ul {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 16px 0 0 40px;
+    color: black;
+}
+
+#menu_bar li {
+    display: inline;
+    /* margin-left: 140px; */
+    color: black;
+}
+
+#span-padding {
+    padding-left: 140px;
+}
+
+#menu_bar a:link {
+    color: black;
+}
+
+#menu_bar a:hover {
+    color: black;
+}
+
+#menu_bar a:visited {
+    color: black;
+}
+
+#menu_bar a:active {
+    color: black;
+}
+
+/* 메인 이미지 */
+#main_img_bar {
+    margin: 0 auto;
+    width: 1000px;
+    height: 230px;
+    text-align: center;
+    /* background-color: #ffca18; */
+}
+
+#main_img_bar img {
+    margin-top: 20px;
+}
+
+/* 하단 푸터 */
+footer {
+    margin: 0 auto;
+    width: 1000px;
+    box-sizing: border-box;
+    height: 150px;
+    /* background-color: #F7F2E0; */
+    border-top: 1px solid lightgray;
+    padding-left: 20px;
+    font-size: 11px;
+}
+
+#footer_content {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    color: gray;
+}
+
+#footer_content img{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+/* #footer_logo {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 16px;
+} */
+
+#footer_logo span {
+    color: yellow;
+}
+
+#download {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+
+#author {
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+
+#footer_text_last {
+    padding-top: 10px;
+}
